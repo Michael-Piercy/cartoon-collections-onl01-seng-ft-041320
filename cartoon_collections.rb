@@ -1,12 +1,12 @@
 def roll_call_dwarves(array)
-  array = ["Doc", "Dopey", "Grumpy", "Bashful"]
+  
   array.each_with_index do |value, index|
   puts "#{index} #{value}"
   end
 end
 
 def summon_captain_planet(array)
-  array = ["earth", "wind", "fire", "water", "heart"]
+  
   array.each do |planeteer_calls|
     planeteer_calls << "!"
   end
