@@ -17,8 +17,3 @@ def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
-
-
-[:foo, :bar, :baz].each.with_index(2) do |value, index|
-    puts "#{index}: #{value}"
-end
