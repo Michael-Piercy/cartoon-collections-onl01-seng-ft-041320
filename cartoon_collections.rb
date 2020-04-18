@@ -6,7 +6,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array = ["Earth", "Wind", "Fire", "Water", "Heart"]
+  array = ["earth", "wind", "fire", "water", "heart"]
   array.each do |planeteer_calls|
     planeteer_calls << "!"
   end
