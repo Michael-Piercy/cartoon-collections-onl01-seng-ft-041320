@@ -1,6 +1,7 @@
 def roll_call_dwarves(array)
-  array.each_with_index
-  puts "The 7 dwarfs in a numbered list."
+  array = ["Doc", "Dopey", "Bashful", "Grumpy"]
+  array.each_with_index do |value, index|
+    puts "#{index} #{value}"
 end
 
 def summon_captain_planet# code an argument here
@@ -14,4 +15,9 @@ end
 def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+end
+
+
+[:foo, :bar, :baz].each_with_index do |value, index|
+    puts "#{index}: #{value}"
 end
