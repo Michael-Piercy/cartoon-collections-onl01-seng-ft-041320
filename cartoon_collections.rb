@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)
   array = ["earth", "wind", "fire", "water", "heart"]
-  array.capitalize.each do |planeteer_calls|
+  array.capitalize. do |planeteer_calls|
     planeteer_calls << "!"
   end
 end
